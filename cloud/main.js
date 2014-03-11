@@ -80,7 +80,7 @@ exports.pushMessages = function(params, callback) {
 
 // Send direct message to set of registered Devices
 exports.pushDirectMessage = function(params, callback) {
-  console.log("PARAMS",params);
+  alert("PARAMS",params);
   var message = "direct message";
   var deviceToken = params.deviceID;
 
