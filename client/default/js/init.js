@@ -34,7 +34,7 @@ var receive_push = function(notification) {
  *  Register the app for push notification service. Based on the platform, the user maybe prompted for the permission to allow the app to use push notification service.
  */
 function registerAPN() {
-  registerButton.disabled = true;
+  registerButton.disabled = false;
   result.innerHTML = 'Registering...';
 
   /**
