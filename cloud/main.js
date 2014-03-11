@@ -83,7 +83,8 @@ exports.pushMessages = function(params, callback) {
 exports.pushDirectMessage = function(params, callback) {
   console.log("PARAMS direct",params);
   var message = "direct message";
-  var deviceToken = params.deviceID;
+  //var deviceToken = params.deviceID;
+  var deviceToken = '88ae3536-b154-4488-921e-8ca04ae2921d';
 
   // var ios_message = {
   //   'device_tokens': [deviceToken],
