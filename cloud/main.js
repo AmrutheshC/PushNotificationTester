@@ -41,7 +41,7 @@ exports.registerUA = function(params, callback) {
 
 // Broadcast message to all registered devices
 exports.pushMessages = function(params, callback) {
-  alert("PARAMS broadcast",params);
+  console.log("PARAMS broadcast",params);
   var message = "Broadcast Message";
   /**
    * Broadcast a message to all the devices.
@@ -81,7 +81,7 @@ exports.pushMessages = function(params, callback) {
 
 // Send direct message to set of registered Devices
 exports.pushDirectMessage = function(params, callback) {
-  alert("PARAMS direct",params);
+  console.log("PARAMS direct",params);
   var message = "direct message";
   var deviceToken = params.deviceID;
 
