@@ -44,6 +44,7 @@ exports.registerUA = function(params, callback) {
 // Broadcast message to all registered devices
 exports.pushMessages = function(params, callback) {
   console.log("PARAMS broadcast",params);
+  alert("PARAMS broadcast"+params);
   var message = "Broadcast Message";
   /**
    * Broadcast a message to all the devices.
