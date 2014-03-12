@@ -5,7 +5,6 @@
 
 exports.registerUA = function(params, callback) {
   //return callback(null, {test: 'test'});
-  alert(params.deviceToken);
   var deviceId, platfrom;
   if (params.deviceToken) {
     deviceId = params.deviceToken;
@@ -33,7 +32,6 @@ exports.registerUA = function(params, callback) {
       console.log(err.toString());
     } else {
       console.log("status from UA : " + res.status);
-      alert("status from UA : " + res.status);
       return callback(null, {
         'result': 'ok'
       });
@@ -44,7 +42,6 @@ exports.registerUA = function(params, callback) {
 // Broadcast message to all registered devices
 exports.pushMessages = function(params, callback) {
   console.log("PARAMS broadcast",params);
-  alert("PARAMS broadcast"+params);
   var message = "Broadcast Message";
   /**
    * Broadcast a message to all the devices.
