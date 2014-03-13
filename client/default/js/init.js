@@ -64,6 +64,7 @@ function successCallback(e) {
   e.ts = new Date().getTime();
 
   localStorage.setItem('deviceID',deviceID);
+  alert(deviceID);
 
   $fh.act({
     act: 'registerUA',
