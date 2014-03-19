@@ -13,7 +13,6 @@ $fh.ready({}, function() {
   $fh.push({
     act: 'receive'
   }, function(notification) {
-    alert(JSON.stringify(notification));
     receive_push(notification);
   }, function(err) {});
 });
