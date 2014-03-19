@@ -5,7 +5,7 @@
 
 exports.registerUA = function(params, callback) {
   //return callback(null, {test: 'test'});
-  var deviceId, platfrom;
+  var deviceId, platform;
   if (params.deviceToken) {
     deviceId = params.deviceToken;
     platform = "ios";
