@@ -14,7 +14,6 @@ exports.registerUA = function(params, callback) {
     platform = "blackberry";
   } else if (params.apid) {
     deviceId = params.apid;
-    alert(params.apid);
     platform = "android";
   }
   /**
