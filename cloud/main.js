@@ -42,7 +42,7 @@ exports.registerUA = function(params, callback) {
 // Broadcast message to all registered devices
 exports.pushMessages = function(params, callback) {
   //console.log("PARAMS broadcast",params);
-  var message = "Broadcast Message";
+  var message = "Broadcast Message From FeedHenry!!";
   /**
    * Broadcast a message to all the devices.
    * The format for each platform is different. See http://urbanairship.com/docs/ for API details for each platform.
